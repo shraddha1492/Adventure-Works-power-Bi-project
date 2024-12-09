@@ -1,64 +1,52 @@
 # Adventure-Works-power-Bi-project
-The dataset was supplied with the Maven Analytics Power BI Desktop course. This data was derived from the AdventureWorks sample databases available from Microsoft.
-An interactive Power BI dashboard to analyze sales, customer behavior, and product performance for  AdventureWorks across 6 countries (2020–2022). 
+The dataset was supplied with the [Maven Analytics Power BI Desktop course](https://mavenanalytics.io/course/microsoft-power-bi-desktop). This data was derived from the [AdventureWorks sample databases](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms) available from Microsoft.
 
-Project Overview
-Purpose: Analyze business performance, identify trends, and derive actionable insights for AdventureWorks.
-Dataset Source: AdventureWorks sample databases (Maven Analytics Power BI Desktop course).
-Time Period: January 1, 2020 – June 30, 2022.
-Geographical Coverage:
-6 countries: Australia, Canada, France, Germany, UK, USA.
-3 continents: Oceania, Europe, North America.
-Customer Attributes:
-Demographic details (age, income, education, children, homeowner status, etc.).
-Dashboard Features
-Executive Summary View
-KPIs: Revenue, profit, orders, and return rates.
-Filters:
-Product and category-based.
-Drill-through for product-level insights.
-Map View
-Geographical sales breakdown (orders per country).
-Product Detail View
-Performance Metrics:
-Orders, revenue, profit compared to targets.
-"What If" Analysis:
-Simulating profit adjustments based on price changes.
-Customer Detail View
-Per-customer revenue and customer count analysis.
-Custom UI Elements
-Year/geography filters.
-Tooltips with category-level order metrics.
-Project Execution
-Data Preparation:
-Connecting and transforming raw data.
-Building relational data models.
-Data Analysis:
-Using DAX for calculated columns/measures.
-Rolling calendar via PowerQuery M.
-Dashboard Development:
-Creating an interactive, multi-page dashboard.
-Key Insights
-Revenue and Profit:
 
-Total revenue: $24.9M.
-Total profit: $10.5M.
-Revenue dip: June–November 2020, likely reflecting COVID-19's impact.
-Peak revenue: December 2021, possibly due to promotions like Black Friday.
-Product Performance:
+### **Overview**
+This project demonstrates a comprehensive business intelligence solution using **Microsoft Power BI** for **AdventureWorks**, a fictional global cycling equipment and accessories company. The dashboard leverages data from the [AdventureWorks sample databases](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms) provided by Microsoft, enhanced through the [Maven Analytics Power BI Desktop course](https://mavenanalytics.io/course/microsoft-power-bi-desktop) dataset.
 
-Most ordered: Tires and tubes.
-Most returned: Cycling shorts.
-Revenue leaders: Mountain bike fenders, sports helmets.
-Most profitable categories: Clothing, accessories.
-Customer Trends:
+### **Features**
+- **Key Performance Indicators (KPIs):** Track sales, revenue, profit, and return rates.
+- **Regional Performance:** Compare sales across six countries (**Australia, Canada, France, Germany, United Kingdom, and United States**).
+- **Product Analysis:** Drill into trends and profitability at the product level.
+- **Customer Insights:** Identify high-value customers and analyze revenue patterns.
+- **Forecasting:** "What-if" scenarios for price adjustments.
 
-Weekly customer count increased by ~200 (since August 2021).
-Decline in revenue per customer year-on-year.
-Australia: Highest revenue per customer ($2,131).
-USA: Largest market (8,700 orders; $7.94M revenue).
-Future Recommendations
-Investigate causes of December 2021 revenue spike (e.g., marketing strategies or promotions).
-Explore ways to reduce return rates for high-return products like cycling shorts.
-Address declining revenue per customer by refining pricing strategies or introducing loyalty programs.
-Capitalize on Australian customer base’s high revenue per customer with tailored campaigns.
+### **Project Highlights**
+- **Connected** and transformed raw data into a relational model.
+- Utilized **DAX** for calculated columns and measures.
+- Created a rolling calendar with **PowerQuery M Code**.
+- Designed an **interactive dashboard** with filtering and drill-through functionality.
+
+### **Dashboard Elements**
+- **Executive Summary View:** High-level KPIs with filters for product categories and drill-through to product details.
+- **Map View:** Total orders visualized per country.
+- **Product Detail View:** Revenue and profit analysis with "what-if" price adjustment functionality.
+- **Customer Detail View:** Per-customer revenue and customer base growth trends.
+
+### **Insights**
+- **Revenue and Profit:** $24.9M in revenue and $10.5M in profit from **01/01/2020 to 30/06/2022**.
+- **COVID-19 Impact:** Revenue dipped from **June to November 2020** but grew steadily afterward.
+- **Exceptional Performance:** **December 2021** saw record revenue of **$1.64M**, potentially due to a seasonal campaign.
+- **Product Trends:**
+  - **Tires and tubes** are the most ordered.
+  - **Cycling shorts** have the highest return rates.
+  - **Helmets** and **mountain bike fenders** generate high revenue despite returns.
+  - **Clothing and accessories** are the most profitable categories.
+- **Customer Insights:**
+  - **U.S.** is the largest market with **$7.94M** in revenue and **8,700 orders**.
+  - **Australia** leads in revenue per customer (**$2,131**).
+  - A decline in **revenue per customer** year-on-year, despite customer growth post-August 2021.
+
+This repository includes all necessary files for replicating the Power BI dashboard, including the **data model, DAX calculations, PowerQuery scripts, and visualizations**.
+
+### **Repository Highlights**
+- **File Structure:** Organized datasets, Power BI project files, and documentation.
+- **Documentation:** Step-by-step guide for connecting the dataset and recreating the dashboard.
+
+### **Potential Use Cases**
+- **Business analysis** for retail or manufacturing industries.
+- Learning **advanced Power BI techniques** for interactive dashboards.
+- Understanding **sales trends** and **customer segmentation**.
+
+
