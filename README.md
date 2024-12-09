@@ -49,4 +49,14 @@ This repository includes all necessary files for replicating the Power BI dashbo
 - Learning **advanced Power BI techniques** for interactive dashboards.
 - Understanding **sales trends** and **customer segmentation**.
 
+**Executive Summary View:**
+![Screenshot 2024-12-09 142803](https://github.com/user-attachments/assets/1b33fa86-df90-4302-a1c5-d53aa21f2b25)
 
+**Map View:**
+![Screenshot 2024-12-09 142832](https://github.com/user-attachments/assets/f34d0ad3-2697-42d3-8476-68d2a79675ad)
+
+**Customer Insights:**
+![Screenshot 2024-12-09 142929](https://github.com/user-attachments/assets/449dac0a-0063-445b-8261-60ffb218dfe5)
+
+**Product Analysis:**
+![Screenshot 2024-12-09 142859](https://github.com/user-attachments/assets/cc27a6bb-8191-45c9-84f7-fde9b98a2d4f)
